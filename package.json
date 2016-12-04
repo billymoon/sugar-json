@@ -1,6 +1,6 @@
 {
   "name": "sugar-json",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JSON plugin for Sugar JS",
   "main": "sugar-json.js",
   "repository": {

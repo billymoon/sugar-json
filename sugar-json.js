@@ -25,7 +25,7 @@
 
   })
 
-  Sugar.Object.defineInstance({
+  Sugar.Object.defineInstanceAndStatic({
 
     /***
      * @method stringify()
