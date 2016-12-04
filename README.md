@@ -1,5 +1,22 @@
-# Sugar Plugin Boilerplate
+# Sugar JSON
 
-This repo provides boilerplate code to write your own Sugar plugin.
-Notes are provided in sugar-string-sample.js Replace this file with
-a readme for your plugin!
+JSON plugin for Sugar JS
+
+## Usage
+
+initialise...
+
+    let Sugar = require('sugar').extend()
+    require('sugar-json')
+
+... objectify json strings ...
+
+    let str = '{"cool":"beans"}'
+    str.objectify()
+    // -> { cool: 'beans' }
+
+... json stringify objects ...
+
+    let obj = new Sugar.Object({cool: 'beans'})
+    obj.stringify().raw
+    // -> {"cool":"beans"}

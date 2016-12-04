@@ -1,16 +1,16 @@
 {
-  "name": "sugar-string-sample",
-  "version": "1.0.0",
-  "description": "Sample plugin for Sugar.",
-  "main": "sugar-string-sample.js",
+  "name": "sugar-json",
+  "version": "0.0.1",
+  "description": "JSON plugin for Sugar JS",
+  "main": "sugar-json.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<REPO>.git"
+    "url": "git+https://github.com/billymoon/sugar-json.git"
   },
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha"
   },
-  "author": "AUTHOR NAME <EMAIL>",
+  "author": "Billy Moon <billy@itaccess.org>",
   "license": "MIT",
   "devDependencies": {
     "mocha": "^3.1.0",
